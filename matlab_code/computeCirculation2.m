@@ -1,5 +1,6 @@
 function [x, z, vortex, node, c, n_vec, t_vec, Gamma] = ...
-    computeCirculation(NACA, U_inf, chord, x_flap, eta, alpha, N, distribution)
+    computeCirculation2(NACA, U_inf, chord, x_flap, eta, alpha, N, distribution)
+% Computes geometry and circulation
 %--------------------------------------------------------------------------
 % Inputs:
 %   - Physical data
