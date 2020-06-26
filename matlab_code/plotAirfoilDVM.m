@@ -1,5 +1,4 @@
 function plotAirfoilDVM(NACA, x, z, vortex, node, n_vec)
-
 % Plot Airfoil
 figure();
 hold on;
