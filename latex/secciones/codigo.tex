@@ -1,0 +1,41 @@
+
+\appendix
+
+\section*{\textbf{Código \MATLAB}}
+
+Para las simulaciones con DVM se han desarrollado dos códigos, en \MATLAB y en Python, con el fin de verificar los resultados obtenidos con ambos. Los gráficas del documento se han elaborado con el código de \MATLAB. Por motivos de extensión solamente se incluye el código de \MATLAB. Ambos códigos se pueden consultar en toda su extensión \href{https://github.com/plosan/aerodynamics_homework_1}{aquí}.
+
+\lstset{
+    columns=fullflexible,
+    frame=single,
+    breaklines=true,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\section*{A. Cálculo geometría}
+\lstinputlisting{codigo/computeGeometry.m}
+
+\newpage
+\section*{B. Cálculo circulación}
+\lstinputlisting{codigo/computeCirculation.m}
+
+\section*{C. Cálculo del coeficiente de sustentación y de momento}
+\lstinputlisting{codigo/computeCoefficientsDVM.m}
+
+\section*{D. Cálculo de los coeficientes \(A_0\), \(A_1\) y \(A_2\) para la Thin Airfoil Theory}
+\lstinputlisting{codigo/computeACoefficients.m}
+
+\section*{E. Verificación de perfil simétrico con $N = 5$ y $\alpha = 5 \degrees$}
+\lstinputlisting{codigo/main_00.m}
+
+\section*{F. Verificación del perfil NACA 2408}
+\lstinputlisting{codigo/main_01.m}
+
+\section*{G. Validación del perfil NACA 2408 sin deflexión de flap}
+\lstinputlisting{codigo/main_02.m}
+
+\section*{H. Validación del perfil NACA 2408 con deflexión de flap}
+\lstinputlisting{codigo/main_03.m}
+
+\section*{I. Discusión de $\alpha_{l0}$ y $C_{m0}$ en perfiles 4-digit NACA en función de $f$ y $p$}
+\lstinputlisting{codigo/main_04.m}
