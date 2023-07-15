@@ -14,7 +14,7 @@ The numering of NACA 4-digit airfoils is:
   <img src="./readme_images/naca_numbering.svg", width=400/>
 </P>
 
-Further information on the NACA airfoils may be found [here](https://github.com/plosan/fractional_step_method/blob/master/notes/1a-FSM_slides_3b.pdf).
+Further information on the NACA airfoils may be found [here](https://github.com/plosan/aerodynamics_homework_1/blob/master/notes/M1_4-Airfoils.pdf).
 
 ## Discrete Vortex Method (DVM)
 
@@ -28,7 +28,7 @@ The Discrete Vortex Method (DVM) is a numerical procedure to estimate some aerod
   <li>Once the linear system is solved, one can compute the aerodynamics loads on the airfoil.</li>
 </ol> 
 
-Further information on the DVM may be found [here](https://github.com/plosan/fractional_step_method/blob/master/notes/1a-FSM_slides_3b.pdf).
+Further information on the DVM may be found [here](https://github.com/plosan/aerodynamics_homework_1/blob/master/notes/M2_4_Discrete_vortex_method.pdf).
 
 ## The project
 
