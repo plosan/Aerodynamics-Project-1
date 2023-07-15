@@ -32,7 +32,25 @@ Further information on the DVM may be found [here](https://github.com/plosan/aer
 
 ## The project
 
-The project consists in computing the main aerodynamic properties of the 4-digit NACA airfoils via the Discrete Vortex Method. Afterwards, the results are compared with those of the Thin Airfoil Theory (TAT). 
+The goal of the project is computing the main aerodynamic properties of the 4-digit NACA airfoils via the Discrete Vortex Method, including the effects due to flap deflection. To this end, the DVM was implemented in MATLAB and Python. Afterwards, the code was verified and validated by comparing the results to those obtained from the Thin Airfoil Theory (TAT).
+
+The outcome of the project is the [report](https://github.com/plosan/aerodynamics_homework_1/blob/master/HW1_Cambra_dePaz_Lopez_Pujadas.pdf). This was joint work with the colleagues listed on the cover. 
+
+The NACA-2408 airfoil is chosen to verify and validate the code.
+
+**Verification.** Check that there are no programming errors in the code. This is achieved by comparing the results of the implemented code to the analytical results of the Thin Airfoil Theory.
+
+**Validation.** Check that the simulation agrees with physical reality. This is done by comparing the code output to the experimental results.
+
+**Discussion.** The aerodynamic loads on an airfoil are computed.
+
+
+## The code
+
+
+
+
+
 
 
 
