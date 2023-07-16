@@ -1,1 +1,2 @@
 *.tex linguist-vendored
+latex/* linguist-vendored
