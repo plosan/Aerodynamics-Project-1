@@ -36,14 +36,7 @@ The goal of the project is computing the main aerodynamic properties of the 4-di
 
 The outcome of the project is the [report](https://github.com/plosan/aerodynamics_homework_1/blob/master/HW1_Cambra_dePaz_Lopez_Pujadas.pdf). This was joint work with the colleagues listed on the cover. 
 
-The NACA-2408 airfoil is chosen to verify and validate the code. A (non-dimensional) chord length of $c = 1$ is chosen. 
-
-<p align="center">
-  <img src="./readme_images/verification_discretization.svg" width="400" />
-</p>
-
-
-The mean line discretization looks like the following:
+The NACA-2408 airfoil is chosen to verify and validate the code. A (non-dimensional) chord length of $c = 1$ is chosen. The mean line discretization looks like the following:
 
 <p align="center">
   <img src="./readme_images/verification_discretization.svg" width="400" />
@@ -88,11 +81,11 @@ Input data:
 
 All main files apply the DVM to compute some aerodynamic data:
 <ol>
-  <li> **main00.m** - Solve the airfoil using DVM</li>
-  <li> **main01.m** - Plot the convergence error</li>
-  <li> **main02.m** - Compute the lift coefficient ($C_{l\alpha}$), the zero lift angle ($\alpha_{l0}$), and the free pitching moment coefficient ($C_{m0}$)</li>
-  <li> **main03.m** - Computations and plots for different flap configurations</li>
-  <li> **main04.m** - Compute the zero lift angle ($\alpha_{l0}$) and the free pitching moment coefficient ($C_{m0}$) for several values of maximum camber ($f$) and maximum camber position ($p$).</li>
+  <li> main00.m - Solve the airfoil using DVM</li>
+  <li> main01.m - Plot the convergence error</li>
+  <li> main02.m - Compute the lift coefficient ($C_{l\alpha}$), the zero lift angle ($\alpha_{l0}$), and the free pitching moment coefficient ($C_{m0}$)</li>
+  <li> main03.m - Computations and plots for different flap configurations</li>
+  <li> main04.m - Compute the zero lift angle ($\alpha_{l0}$) and the free pitching moment coefficient ($C_{m0}$) for several values of maximum camber ($f$) and maximum camber position ($p$).</li>
 </ol>
 
 ## References
